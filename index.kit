@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <title>Settings</title>
+    <link rel="stylesheet" href="./scss/css/style.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Settings</h1>
+        <form>
+            <section>
+                <header>
+                    <h2>Sound & vibration</h2>
+                    <h3>Adjust system volume channels</h3>
+                </header>
+                <fieldset>
+
+                    <div class="fieldset-items">
+                        <picture>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"viewBox="0 0 225 225"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,225.99431v-225.99431h225.99431v225.99431z" fill="none"></path><g fill="#ecf0f1"><path d="M121.875,28.125c-10.35937,0 -18.75,8.39063 -18.75,18.75v28.125v61.32203c-5.69607,-3.30808 -12.16301,-5.05744 -18.75,-5.07202c-20.71068,0 -37.5,16.78932 -37.5,37.5c0,20.71068 16.78932,37.5 37.5,37.5c20.71068,0 37.5,-16.78932 37.5,-37.5v-93.75h32.8125c12.94688,0 23.4375,-10.49062 23.4375,-23.4375c0,-12.94688 -10.49062,-23.4375 -23.4375,-23.4375z"></path></g></g>
+                            </svg>
+                        </picture>
+                        <div class="input-stack">
+                            <label for="media-volume">Media volume</label>
+                            <input type="range" id="media-volume" name="media-volume" min="0" max="10" value="1">
+                        </div>
+                    </div>
+
+                    <div class="fieldset-items">
+                        <picture>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 225 225"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,225.99431v-225.99431h225.99431v225.99431z" fill="none"></path><g fill="#ecf0f1"><path d="M187.71563,145.2c-5.90625,-0.14062 -13.34062,-0.4875 -18.0375,-1.3125c-5.08125,-0.9 -11.19375,-2.64375 -15.49687,-3.98437c-3.375,-1.05 -7.05,-0.12188 -9.55312,2.37187l-20.78437,20.6625c-14.3625,-7.56562 -25.86563,-16.37813 -35.60625,-26.175c-9.79687,-9.74062 -18.60937,-21.24375 -26.175,-35.60625l20.6625,-20.79375c2.49375,-2.50312 3.42187,-6.17812 2.37187,-9.55312c-1.33125,-4.29375 -3.08438,-10.40625 -3.975,-15.4875c-0.83438,-4.69687 -1.17187,-12.13125 -1.32187,-18.0375c-0.12188,-5.10937 -4.28438,-9.15937 -9.39375,-9.15937h-32.90625c-4.10625,0 -9.375,3.075 -9.375,9.375c0,42.55312 17.25,83.19375 46.55625,112.81875c29.625,29.30625 70.26563,46.55625 112.81875,46.55625c6.3,0 9.375,-5.26875 9.375,-9.375v-32.90625c0,-5.10938 -4.05,-9.27188 -9.15938,-9.39375z"></path></g></g>
+                            </svg>
+                        </picture>
+                        <div class="input-stack">
+                            <label for="call-volume">Call volume</label>
+                            <input type="range" id="call-volume" name="call-volume" min="0" max="10" value="4">
+                        </div>
+                    </div>
+
+                    <div class="fieldset-items">
+                        <picture>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 225 225"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,225.99431v-225.99431h225.99431v225.99431z" fill="none"></path><g id="original-icon" fill="#ecf0f1"><path d="M98.4375,18.75v20.58105c-24.2514,6.25109 -42.1875,28.21395 -42.1875,54.41895v56.25l-18.75,18.75v9.375h150v-9.375l-18.75,-18.75v-56.25c0,-26.205 -17.9361,-48.16786 -42.1875,-54.41895v-20.58105zM93.75,187.5c0,10.3125 8.4375,18.75 18.75,18.75c10.3125,0 18.75,-8.4375 18.75,-18.75z"></path></g></g>
+                            </svg>
+                        </picture>
+                        <div class="input-stack">
+                            <label for="ring-volume">Ring volume</label>
+                            <input type="range" id="ring-volume" name="ring-volume" min="0" max="10" value="7">
+                        </div>
+                    </div>
+
+                    <div class="fieldset-items">
+                        <picture>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 225 225"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,225.99431v-225.99431h225.99431v225.99431z" fill="none"></path><g fill="#ecf0f1"><path d="M59.01489,14.08081l-43.08472,36.23657l12.06665,14.33716l43.08472,-36.23657zM165.98511,14.08081l-12.06665,14.33716l43.08472,36.23657l12.06665,-14.33716zM112.5,37.5c-46.60313,0 -84.375,37.77187 -84.375,84.375c0,46.60313 37.77187,84.375 84.375,84.375c46.60313,0 84.375,-37.77187 84.375,-84.375c0,-46.60313 -37.77187,-84.375 -84.375,-84.375zM112.5,56.25c36.24375,0 65.625,29.38125 65.625,65.625c0,36.24375 -29.38125,65.625 -65.625,65.625c-36.24375,0 -65.625,-29.38125 -65.625,-65.625c0,-36.24375 29.38125,-65.625 65.625,-65.625zM103.125,75v62.03614l42.68188,21.35009l8.38624,-16.77246l-32.31812,-16.14991v-50.46386z"></path></g></g>
+                            </svg>
+                        </picture>
+                        <div class="input-stack">
+                            <label for="alarm-volume">Alarm volume</label>
+                            <input type="range" id="alarm-volume" name="alarm-volume" min="0" max="10" value="10">
+                        </div>
+                    </div>
+
+                </fieldset>
+            </section>
+
+            <section>
+                <header>
+                    <h2>Notifications</h2>
+                    <h3>Turn specific channels on/off</h3>
+                </header>
+                <fieldset>
+                    <div class="fieldset-items fieldset-items_checkbox">
+                        <input type="checkbox" name="text-messages" id="text-messages">
+                        <div class="input-stack">
+                            <label for="text-messages">
+                                <h4>Text Messages</h4>
+                                <small>Get notified about all text messages sent to your device</small>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="fieldset-items fieldset-items_checkbox">
+                        <input type="checkbox" name="voice-mail" id="voice-mail">
+                        <div class="input-stack">
+                            <label for="voice-mail">
+                                <h4>Voice Mail</h4>
+                                <small>Get notified about all text messages sent to your device</small>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="fieldset-items ">
+                        <input type="checkbox" name="emails" id="emails">
+                        <div class="input-stack">
+                            <label for="emails">
+                                <h4>Emails</h4>
+                                <small>Get notified about all text messages sent to your device</small>
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+            </section>
+        </form>
+    </main>
+</html>
