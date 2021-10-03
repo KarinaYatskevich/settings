@@ -1,4 +1,4 @@
-prepros-6.config
+*prepros-6.config
 
-.kit
-.scss
+*.kit
+*.scss
